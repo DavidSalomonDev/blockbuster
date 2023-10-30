@@ -25,22 +25,24 @@ actores.
 El diseño de la base de datos consta de varias tablas, cada una de las cuales almacena información específica. Estas
 tablas incluyen:
 
-1. `Socios`: Almacena información sobre los socios del vídeo club, como su nombre, dirección, teléfono y preferencias
+1. `Socio`: Almacena información sobre los socios del vídeo club, como su nombre, dirección, teléfono y preferencias
    cinematográficas.
 
-2. `Películas`: Registra información sobre las películas disponibles, como el título, género, director y actores.
+2. `Director`: Registra información sobre los directores de las películas, incluyendo su nombre.
 
-3. `Préstamos`: Registra los préstamos de películas a los socios, incluyendo el socio, la fecha y el número de cinta.
+3. `Actor`: Almacena datos sobre los actores que participan en las películas, incluyendo su nombre.
 
-4. `Fichas de Películas Prestadas`: Almacena las fichas de películas que han sido prestadas y se han devuelto.
+4. `Película`: Contiene información sobre las películas disponibles en el videoclub, como título, género y referencias a
+   directores, actores y cintas.
 
-5. `Fichas de Películas por Título`: Contiene fichas de películas ordenadas por título, incluyendo género, director y
-   actores.
+5. `Cintas`: Lleva el inventario de las cintas disponibles en el videoclub, incluyendo la cantidad de copias, la última
+   devolución y el último préstamo.
 
-6. `Fichas de Socios`: Almacena las fichas de socios ordenadas por el código del carné, incluyendo sus preferencias y
-   datos personales.
+6. `Préstamos`: Registra los préstamos de cintas a los socios, incluyendo la fecha y el número de cinta.
 
-7. `Lista de Espera`: Registra a los socios en lista de espera para películas agotadas.
+7. `Devoluciones`: Registra las devoluciones de cintas, incluyendo la fecha.
+
+8. `Lista de Espera: Gestiona las listas de espera de películas agotadas, incluyendo solicitudes de socios.
 
 ## Secuencia de Ejecución de Scripts
 
@@ -52,19 +54,19 @@ Para implementar esta base de datos, se deben ejecutar los siguientes scripts en
 2. `03_create_tables.sql`: Este script crea las tablas necesarias para almacenar la información de socios, películas y
    préstamos.
 
-2. `04_create_indexes.sql`: Crea índices para mejorar el rendimiento de las consultas en la base de datos.
+2. `04_create_relations.sql`: Crea las relaciones entre las tablas existentes.
 
-3. `03_insert_initial_data.sql`: Inserta datos iniciales de prueba en las tablas, como algunos socios y películas.
+3. `05_create_sample_data.sql`: Inserta datos iniciales de prueba en las tablas, como algunos socios y películas.
 
-4. `04_create_views.sql`: Crea vistas que proporcionan información específica sobre películas y socios.
+4. `06_create_views.sql`: Crea vistas que proporcionan información específica sobre películas y socios.
 
-5. `05_create_procedures.sql`: Define procedimientos almacenados para realizar acciones específicas, como registrar un
+5. `07_create_procedures.sql`: Define procedimientos almacenados para realizar acciones específicas, como registrar un
    préstamo o devolución.
 
-6. `06_create_triggers.sql`: Crea desencadenadores que automatizan ciertas acciones cuando se registran préstamos o
+6. `08_create_triggers.sql`: Crea desencadenadores que automatizan ciertas acciones cuando se registran préstamos o
    devoluciones.
 
-7. `07_sample_queries.sql`: Proporciona ejemplos de consultas SQL que se pueden realizar en la base de datos.
+7. `09_sample_queries.sql`: Proporciona ejemplos de consultas SQL que se pueden realizar en la base de datos.
 
 ## Contribución
 
