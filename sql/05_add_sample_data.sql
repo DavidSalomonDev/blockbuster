@@ -1,15 +1,15 @@
 -- Socios
 INSERT INTO SOCIO (NOMBRE, DIRECCION, TELEFONO)
-VALUES ('Juan Pérez', 'Calle 123, Ciudad Uno', '+1-123-456-7890');
+VALUES ('Juan Pérez', 'Calle 123, Ciudad Uno', '+503 23123223');
 
 INSERT INTO SOCIO (NOMBRE, DIRECCION, TELEFONO)
 VALUES ('María Rodríguez', 'Avenida Principal, Ciudad Dos', '+1-987-654-3210');
 
 INSERT INTO SOCIO (NOMBRE, DIRECCION, TELEFONO)
-VALUES ('Carlos Sánchez', 'Carrera 45, Ciudad Tres', '+1-555-555-5555');
+VALUES ('Carlos Sánchez', 'Carrera 45, Ciudad Tres', '+502 32335876');
 
 INSERT INTO SOCIO (NOMBRE, DIRECCION, TELEFONO)
-VALUES ('Laura Gómez', 'Avenida Central, Ciudad Cuatro', '+1-777-888-9999');
+VALUES ('Laura Gómez', 'Avenida Central, Ciudad Cuatro', '+504 43789854');
 
 INSERT INTO SOCIO (NOMBRE, DIRECCION, TELEFONO)
 VALUES ('Pedro González', 'Calle 67, Ciudad Cinco', '+1-333-333-3333');
@@ -48,19 +48,19 @@ VALUES ('Keanu Reeves');
 
 -- Peliculas
 INSERT INTO PELICULA (TITULO, GENERO, DIRECTOR, ACTORES, ID_CINTA)
-VALUES ('El Señor de los Anillos: La Comunidad del Anillo', 'Aventura', 1, '{1, 2, 3}', 101);
+VALUES ('El Señor de los Anillos: La Comunidad del Anillo', 'Aventura', 1, '{1, 2, 3}', 1);
 
 INSERT INTO PELICULA (TITULO, GENERO, DIRECTOR, ACTORES, ID_CINTA)
-VALUES ('Interestelar', 'Ciencia Ficción', 2, '{4, 5, 6}', 102);
+VALUES ('Interestelar', 'Ciencia Ficción', 2, '{4, 5, 6}', 2);
 
 INSERT INTO PELICULA (TITULO, GENERO, DIRECTOR, ACTORES, ID_CINTA)
-VALUES ('Titanic', 'Romance', 3, '{7, 8, 9}', 103);
+VALUES ('Titanic', 'Romance', 3, '{7, 8, 9}', 3);
 
 INSERT INTO PELICULA (TITULO, GENERO, DIRECTOR, ACTORES, ID_CINTA)
-VALUES ('Jurassic Park', 'Acción', 4, '{10, 11, 12}', 104);
+VALUES ('Jurassic Park', 'Acción', 4, '{10, 11, 12}', 4);
 
 INSERT INTO PELICULA (TITULO, GENERO, DIRECTOR, ACTORES, ID_CINTA)
-VALUES ('Matrix', 'Ciencia Ficción', 5, '{13, 14, 15}', 105);
+VALUES ('Matrix', 'Ciencia Ficción', 5, '{13, 14, 15}', 5);
 
 -- Cintas
 INSERT INTO CINTAS (ID_PELICULA, CANTIDAD, ULTIMA_DEVOLUCION, ULTIMO_PRESTAMO)
