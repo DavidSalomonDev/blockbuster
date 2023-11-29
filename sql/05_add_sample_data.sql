@@ -75,26 +75,27 @@ VALUES
 INSERT INTO
     PELICULA (TITULO, GENERO, ID_CINTA)
 VALUES
-    ('The Shawshank Redemption', 'Drama', 3),
-    ('The Godfather', 'Crime', 4),
-    ('The Dark Knight', 'Action', 5),
+    ('Sueño de Fuga', 'Drama', 3),
+    ('El Padrino', 'Crimen', 4),
+    ('El Caballero de la Noche', 'Acción', 5),
     ('Forrest Gump', 'Drama', 6),
-    ('Inglourious Basterds', 'War', 7),
+    ('Bastardos sin Gloria', 'Guerra', 7),
     ('Titanic', 'Romance', 8),
-    ('The Matrix', 'Science Fiction', 9),
-    ('The Silence of the Lambs', 'Thriller', 10),
-    ('Schindler''s List', 'History', 11),
+    ('Matrix', 'Ciencia Ficción', 9),
+    ('El Silencio de los Corderos', 'Thriller', 10),
+    ('La Lista de Schindler', 'Histórica', 11),
     ('Casablanca', 'Romance', 12),
-    ('Fight Club', 'Drama', 13),
-    ('The Shawshank Redemption', 'Action', 14),
-    ('The Lord of the Rings: The Fellowship of the Ring', 'Adventure', 15),
-    ('The Departed', 'Crime', 16),
-    ('Gladiator', 'Action', 17),
-    ('The Grand Budapest Hotel', 'Comedy', 18),
+    ('El Club de la Lucha', 'Drama', 13),
+    ('Sueño de Fuga', 'Acción', 14),
+    ('El Señor de los Anillos: La Comunidad del Anillo', 'Aventura', 15),
+    ('Infiltrados', 'Crimen', 16),
+    ('Gladiador', 'Acción', 17),
+    ('El Gran Hotel Budapest', 'Comedia', 18),
     ('La La Land', 'Musical', 19),
-    ('Gravity', 'Science Fiction', 20),
-    ('Avatar', 'Action', 21),
-    ('Black Swan', 'Drama', 22);
+    ('Gravedad', 'Ciencia Ficción', 20),
+    ('Avatar', 'Acción', 21),
+    ('Cisne Negro', 'Drama', 22);
+
 
 -- Agregar datos a la tabla CINTAS
 INSERT INTO
@@ -170,7 +171,7 @@ VALUES
     (19, 5),  -- Avatar - Stanley Kubrick
     (20, 6);
 -- Black Swan - James Cameron
-    
+
 -- Agregar datos a la tabla INFORMACION_CINTA
 INSERT INTO
     INFORMACION_CINTA (ID_CINTA, CANTIDAD)

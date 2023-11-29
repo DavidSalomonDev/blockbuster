@@ -6,24 +6,24 @@
  * una base de datos. Al usar este tipo enumerado, se asegura la consistencia en los valores de género
  * y simplifica las consultas relacionadas con géneros de películas.
  */
-CREATE TYPE genero_pelicula AS ENUM (
-	'Acción',
-	'Comedia',
-	'Drama',
-	'Ciencia Ficción',
-	'Aventura',
-	'Romance',
-	'Animación',
-	'Fantasía',
-	'Terror',
-	'Documental',
-	'Crimen',
-	'Misterio',
-	'Musical',
-	'Biografía',
-	'Western',
-	'Guerra',
-	'Histórica',
-	'Superhéroes',
-	'Suspenso'
-	);
+CREATE TYPE GENERO_PELICULA AS ENUM (
+    'Acción',
+    'Animación',
+    'Aventura',
+    'Biografía',
+    'Ciencia Ficción',
+    'Comedia',
+    'Crimen',
+    'Documental',
+    'Drama',
+    'Fantasía',
+    'Guerra',
+    'Histórica',
+    'Misterio',
+    'Musical',
+    'Romance',
+    'Suspenso',
+    'Superhéroes',
+    'Terror',
+    'Western'
+    );
