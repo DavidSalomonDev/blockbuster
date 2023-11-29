@@ -77,26 +77,27 @@ VALUES
 INSERT INTO
     PELICULA (TITULO, GENERO, ID_CINTA)
 VALUES
-    ('Inception', 'Sci-Fi', 1),
-    ('Pulp Fiction', 'Crime', 2),
+    ('Inception', 'Ciencia Ficción', 1),
+    ('Pulp Fiction', 'Crimen', 2),
     ('Little Women', 'Drama', 3),
-    ('The Irishman', 'Biography', 4),
+    ('The Irishman', 'Biografía', 4),
     ('Lost in Translation', 'Drama', 5),
-    ('Schindler''s List', 'History', 6),
-    ('Gravity', 'Sci-Fi', 7),
-    ('A Wrinkle in Time', 'Adventure', 8),
+    ('Schindler''s List', 'Histórica', 6),
+    ('Gravity', 'Ciencia Ficción', 7),
+    ('A Wrinkle in Time', 'Aventura', 8),
     ('Parasite', 'Drama', 9),
-    ('The Godfather', 'Crime', 10),
-    ('Pans Labyrinth', 'Fantasy', 11),
-    ('Life of Pi', 'Adventure', 12),
-    ('Blade Runner 2049', 'Sci-Fi', 13),
-    ('Get Out', 'Horror', 14),
+    ('The Godfather', 'Crimen', 10),
+    ('Pans Labyrinth', 'Fantasía', 11),
+    ('Life of Pi', 'Aventura', 12),
+    ('Blade Runner 2049', 'Ciencia Ficción', 13),
+    ('Get Out', 'Terror', 14),
     ('Fight Club', 'Drama', 15),
     ('The Piano', 'Drama', 16),
-    ('Arrival', 'Sci-Fi', 17),
-    ('The Grand Budapest Hotel', 'Comedy', 18),
-    ('No Country for Old Men', 'Crime', 19),
-    ('Black Widow', 'Action', 20);
+    ('Arrival', 'Ciencia Ficción', 17),
+    ('The Grand Budapest Hotel', 'Comedia', 18),
+    ('No Country for Old Men', 'Crimen', 19),
+    ('Black Widow', 'Acción', 20);
+
 
 -- Inserción de datos en la tabla CINTAS
 INSERT INTO
